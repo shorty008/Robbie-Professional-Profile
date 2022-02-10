@@ -1,7 +1,7 @@
 :root {
-    --primary-color: #122564;
+    --primary-color: rgb(2, 44, 71);
     --secondary-color: #b1b1ff;
-    --tertiary-color: #8d2b64;
+    --tertiary-color: #bd3e88;
 }
 
 * {
@@ -97,9 +97,8 @@ header nav ul li a:hover {
   font-style: italic;
   font-size: 20px;
   justify-content: center;
-  background-color: lightgray;
-  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
-  color: teal;
+  text-shadow: 0 0 5px rgba(41, 33, 33, 0.5);
+  color: var(--tertiary-color);
 }
 
 .hero-slogan h2 .quotename {
