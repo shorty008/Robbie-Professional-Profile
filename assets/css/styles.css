@@ -1,7 +1,7 @@
 :root {
     --primary-color: #122564;
     --secondary-color: #b1b1ff;
-    --tertiary-color: #a10008;
+    --tertiary-color: #8d2b64;
 }
 
 * {
@@ -72,3 +72,39 @@ header nav ul li a:hover {
 
 /* End of Header/Nav Bar Styles Section */
 
+/* Hero Styles Style */
+.hero {
+  background-image: url("../images/hero.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  background-attachment: fixed;
+  background-position: 80%;
+}
+
+.hero-slogan {
+  width: 32%;
+  text-align: center;
+  margin: 3.5%;
+  color: #fff;
+  font-size: 10px;
+  line-height: 1.2;
+}
+
+.hero-slogan h2{
+  font-style: italic;
+  font-size: 20px;
+  justify-content: center;
+  background-color: lightgray;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  color: teal;
+}
+
+.hero-slogan h2 .quotename {
+  justify-content: right;
+  padding: 3px;
+}
+
+/* HERO STYLES END */
