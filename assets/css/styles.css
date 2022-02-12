@@ -73,7 +73,7 @@ header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
-    text-shadow: 0 0 10px rgba(22, 115, 255, 0.4);
+    text-shadow: 0 0 10px rgba(0, 35, 88, 0.4);
     text-decoration-line: underline;
     color: var(--secondary-color);
 }
@@ -127,6 +127,12 @@ section {
   justify-content: space-between;
 }
 
+.section-title {
+  width: 25%;
+  font-size: 35px;
+  text-align: right;
+  padding: 5px 5px;
+}
 
 .content {
   display: flex;
@@ -137,14 +143,9 @@ section {
   margin: 10px 0;
   padding: 20px 20px; 
 }
-/* End of Style All Section Tags */
 
-/* Section Title Style */
-.section-title {
-  width: 25%;
-  font-size: 35px;
-  justify-content: right;
-  padding: 5px 5px;
-  
+#aboutme-body {
+  color: var(--secondary-color);
 }
+/* End of Style All Section Tags */
 
