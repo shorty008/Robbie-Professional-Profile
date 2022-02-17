@@ -197,33 +197,14 @@ section {
 .app-info {
   background-color: var(--secondary-color);
   width: 100%;
-  height:0px;
+  height:10px;
   position: absolute;
+  text-align: center;
   left: 0px;
   bottom: 0px; 
-  text-align: center;
   margin: 0;
   padding: 30px 5px;
-  opacity: .5;
-
-}
-
-.app-info h3 {
-  width: 70%;
-  padding: 25px;
-  line-height: 1.3;
-  background: var(--quaternary-color);
-  margin-top: 15px;
-  border-radius: 10px;
-}
-
-.app-info p {
-  width: 70%;
-  padding: 25px;
-  line-height: 1.3;
-  background: var(--quaternary-color);
-  margin-top: 15px;
-  border-radius: 10px;
+  opacity: .75;
 }
 
 /* Enf of My Works Style Section  */
