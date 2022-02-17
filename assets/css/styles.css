@@ -154,6 +154,41 @@ section {
 
 /* End of About Me Section */
 
+.apps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 10px;
+  border: 5px solid var(--secondary-color);
+  position: relative;
+  width: 475px;
+}
+
+.apps img {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(0 0 0 50%);
+}
+
+#app-1 {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(0 0 0 50%);
+  padding: 0;
+  
+}
+
+#app-2 {
+  display: block;
+  width: 45%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(0 0 0 50%);
+  padding: 0;
+  
+}
+
 /* Contact Me Styling */
 
 #contactinfo ul {
