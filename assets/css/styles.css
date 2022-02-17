@@ -1,7 +1,7 @@
 :root {
     --primary-color: #022c47;
-    --secondary-color: #bd3e88;
-    --tertiary-color: #b1b1ff;
+    --secondary-color: rgb(101, 206, 255);
+    --tertiary-color: rgb(196, 0, 130);
 }
 
 * {
@@ -72,7 +72,7 @@ header nav ul {
 header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
-    font-size: 1.55vw;
+    font-size: 2.55vw;
     text-shadow: 0 0 10px rgba(0, 35, 88, 0.4);
     text-decoration-line: underline;
     color: var(--secondary-color);
@@ -89,7 +89,7 @@ header nav ul li a:hover {
 
 /* Hero Styles Style */
 .hero {
-  background-image: url("../images/hero.jpg");
+  background-image: url("../images/hero-1.jpg");
   background-size: cover;
   background-position: 80%;
   height: 250px;
@@ -108,7 +108,7 @@ header nav ul li a:hover {
   font-style: italic;
   font-size: 20px;
   text-shadow: 0 0 5px rgba(41, 33, 33, 0.5);
-  color: var(--tertiary-color);
+  color: rgb(255, 217, 0);
 }
 
 .hero-image {
@@ -149,7 +149,7 @@ section {
 /*About Me Section */
 
 #aboutme-body {
-  color: var(--secondary-color);
+  color: var(--tertiary-color);
 }
 
 /* End of About Me Section */
@@ -189,4 +189,3 @@ section {
   border-radius: 15px;
 
 /* End of Contact Me Section */
-
