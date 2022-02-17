@@ -154,6 +154,7 @@ section {
 
 /* End of About Me Section */
 
+/* My Works Style Section */
 .apps {
   display: flex;
   flex-wrap: wrap;
@@ -188,6 +189,11 @@ section {
   padding: 0;
   
 }
+
+.apps img:hover{
+  opacity: .75;
+}
+/* Enf of My Works Style Section  */
 
 /* Contact Me Styling */
 
