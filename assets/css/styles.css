@@ -193,6 +193,20 @@ section {
 .apps img:hover{
   opacity: .75;
 }
+
+.app-info {
+  background-color: var(--secondary-color);
+  width: 100%;
+  height:10px;
+  position: absolute;
+  text-align: center;
+  left: 0px;
+  bottom: 0px; 
+  margin: 0;
+  padding: 30px 5px;
+  opacity: .75;
+}
+
 /* Enf of My Works Style Section  */
 
 /* Contact Me Styling */
