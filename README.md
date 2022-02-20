@@ -19,5 +19,5 @@ https://shorty008.github.io/Robbie-Professional-Profile/
 
 ## Website Layout
 
-![Robbie's Profile](/assets/images/profile.png)
+![Robbie's Profile](/assets/images/Profile.png)
 
