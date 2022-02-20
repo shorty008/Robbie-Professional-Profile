@@ -108,12 +108,14 @@ header nav ul li a:hover {
   font-size: 20px;
   text-shadow: 0 0 5px rgba(41, 33, 33, 0.5);
   color: rgb(255, 217, 0);
+  width: 40%;
 }
 
 .hero-image {
   position: absolute;
   bottom: 0px;
   right: 100px;
+  width: 25%;
 }
 /* End Hero Styles*/
 
@@ -246,3 +248,93 @@ section {
   border-radius: 15px;
 
 /* End of Contact Me Section */
+
+/*Responsive Modes */
+@media screen and (min-width: 1441px, max-width: 2560px){
+  
+  .content {
+      font-size: 35px;
+  }
+
+  #app-1 img{
+      width: 1216px;
+      
+  }
+  #app-2 img, #app-3 img, #app-4 img {
+      width: 600px;      
+  }
+
+  #aboutme-body {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  }
+  .hero{
+      width: 100%;
+  }
+
+  .app-1 {
+    width: 480px;
+  }
+
+  .app-1 img{
+      width: 480px;
+  }
+
+@media screen and (max-width: 980px) {
+
+  .data ul {
+      margin-top: 20px;
+      width:100%;
+      justify-content:center;
+  }
+
+  .data ul li a {
+      font-size: 20px;
+  }
+
+  .data ul li {
+      font-size: 20px;
+  }
+
+}
+/*MEDIA QUERY FOR TABLETS AND SMALLER*/
+@media screen and (max-width: 768px){
+  .flex-row{
+      padding: 5px 20px;
+  }
+}
+
+
+/*MEDIA QUERY FOR MOBILE PHONES AND SMALLER*/
+@media screen and (max-width: 575px) {
+  header nav ul li a {
+      display: block;
+  }
+
+  .hero {
+     background-position: left;
+  }
+
+  .hero h2 {
+      position: absolute;
+      bottom:30px;
+      right: 0px;
+  }
+
+  .aboutme, .work, .contactme {
+      display: block;
+  }
+
+  #app-1 img, #app-2 img, #app-3 img, #app-4 img {
+      width: 400px;
+     
+  }
+
+  #app-1, #app-2, #app-3, #app-4 {
+    width: 400px;
+   
+  }
+}
